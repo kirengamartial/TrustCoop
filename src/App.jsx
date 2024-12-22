@@ -57,7 +57,7 @@ const TrustCoopLandingPage = () => {
         className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 
         ${isScrolled ? 'bg-white/90 backdrop-blur-md shadow-sm' : 'bg-transparent'}`}
       >
-        <div className="container mx-auto px-4 py-4 flex justify-between items-center text-xs max-w-4xl">
+        <div className="container mx-auto px-4 py-4 flex justify-between items-center text-xs max-w-6xl">
           {/* Logo */}
           <div className="flex items-center space-x-3">
             <span className="text-xl font-bold text-green-700">TrustCoop</span>
@@ -109,7 +109,7 @@ const TrustCoopLandingPage = () => {
         {/* Hero Section */}
         <section 
           id="home" 
-          className="container mx-auto px-4 max-w-4xl grid md:grid-cols-2 gap-8 items-center"
+          className="container mx-auto px-4 max-w-6xl grid md:grid-cols-2 gap-8 items-center"
         >
           <div className="space-y-6 text-center md:text-left animate-fade-in">
             <h1 className="text-2xl md:text-4xl font-bold text-gray-900 leading-tight">
@@ -145,7 +145,7 @@ const TrustCoopLandingPage = () => {
 
         {/* Why TrustCoop Section */}
         <section className="py-16 text-center px-4">
-          <div className="container max-w-4xl mx-auto">
+          <div className="container max-w-6xl mx-auto">
             <h2 className="text-2xl font-bold mb-6 text-gray-900">Why Choose TrustCoop?</h2>
             <p className="text-sm text-gray-600 px-4">
               Agriculture makes up 45.9% of cooperatives in Rwanda. At TrustCoop, we're focusing on this vital sector to help farmers manage their cooperatives, track crops, and streamline operations. With our platform, agricultural cooperatives can reduce costs, increase efficiency, and unlock new opportunities for growth.
@@ -158,7 +158,7 @@ const TrustCoopLandingPage = () => {
           id="features" 
           className="py-16 px-4 bg-gray-50"
         >
-          <div className="container max-w-4xl mx-auto">
+          <div className="container max-w-6xl mx-auto">
             <h2 className="text-2xl font-bold text-center mb-12 text-gray-900">
               Transforming Agricultural Cooperatives
             </h2>
@@ -209,7 +209,7 @@ const TrustCoopLandingPage = () => {
           id="contact" 
           className="py-16 px-4"
         >
-          <div className="container max-w-4xl mx-auto">
+          <div className="container max-w-6xl mx-auto">
             <div className="grid md:grid-cols-2 gap-8">
               {/* Contact Information */}
               <div className="bg-white p-6 md:p-8 rounded-xl shadow-md space-y-6">
@@ -342,7 +342,7 @@ const TrustCoopLandingPage = () => {
 
       
       <footer className="bg-gray-900 text-white py-16 px-4">
-        <div className="container max-w-4xl mx-auto">
+        <div className="container max-w-6xl mx-auto">
           <div className="grid md:grid-cols-3 gap-8">
             {/* Company Info */}
             <div className="space-y-4 text-center md:text-left">
